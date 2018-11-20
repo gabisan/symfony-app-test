@@ -1,0 +1,20 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+#app_default_index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+#app_blog_list:
+#    path: /blog/{page}
+#    controller: App\Controller\BlogController::list
+#    defaults:
+#        page: 1
+#        requirements:
+#            page: '\d+'
+
+#blog_add:
+#    path: /blog/add
+#    controller: App\Controller\BlogController::add
+#    methods: [POST]
